@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My contact</title>
+	<style>
+	body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 20px;
+}
+
+#contact {
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    margin: auto;
+}
+
+.contact-info p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+nav{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222;
+  color: white;
+  padding:12px 29px;
+  position:fixed;
+  width:100%;
+ }
+   .logo{
+    font-size: 30px;
+    text-decoration: bold;
+
+   }
+   .nav-links{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    transition:0.3s;
+   }
+   .nav-links li{
+    display: inline;
+    padding:90px;
+   }
+   .nav-links a{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    transition:0.3s;
+   }
+   
+   body{
+    background-image: url("portfolio.jpg");
+    background-style:move-background;
+    background-size: cover;
+    background-position: center;
+    @keyframes 0%{
+     0 0
+    }
+    @keyframes 50%{
+     50 100
+    }
+    @keyframes 100%{
+     50% 0%
+    }
+</style>
+
+</head>
+<body>
+	<nav>
+ <div class="logo">My Portfolio</div>
+ <ul class="nav-links">
+  <li><a href="home.html"> Home</a></li>
+  <li> <a href="about me.html"> About</a></li>
+
+  <li> <a href="skills.html">Skills</a></li>
+  <li> <a href="contact.html">Contact</a></li>
+ </ul>
+</nav>
+<header>
+        <h1>Contact Me</h1>
+    </header>
+
+    <section id="contact">
+        <h2>Get in Touch</h2>
+        <p>If you’d like to work together, feel free to reach out!</p>
+
+        <div class="contact-info">
+            <p><strong>Email:</strong> gauravlc64@gmail.com</p>
+            <p><strong>Phone:</strong> +977 9709282191</p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/Gaurav098600" target="_blank">github.com/Gaurav098600</a></p>
+        </div>
+
+        <h2>Send a Message</h2>
+        <form action="mailto:gauravlc64@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 [Gaurav LAmichhane]. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+</body>
+</html>

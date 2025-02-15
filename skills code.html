@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>Personal Portfolio</title>
+<style>
+ nav{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222;
+  color: white;
+  padding:12px 29px;
+  position:fixed;
+  width:100%;
+ }
+   .logo{
+    font-size: 30px;
+    text-decoration: bold;
+
+   }
+   .nav-links{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    transition:0.3s;
+   }
+   .nav-links li{
+    display: inline;
+    padding:90px;
+   }
+   .nav-links a{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    transition:0.3s;
+   }
+   
+   body{
+    background-image: url("portfolio.jpg");
+    background-style:move-background;
+    background-size: cover;
+    background-position: center;
+    @keyframes 0%{
+     0 0
+    }
+    @keyframes 50%{
+     50 100
+    }
+    @keyframes 100%{
+     50% 0%
+    }
+   }
+   #tab{
+    float:left;    margin-top: 250px;
+    margin-bottom: 80px;
+    box-shadow: 1px 1px 20px;
+    border:10px;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background:black;
+    color: white;
+    font-family: sans-serif;
+    
+       }
+       h1{
+        float:left;    margin-top: 250px;
+    margin-bottom: 80px;
+    box-shadow: 1px 1px 20px;
+    border:10px;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 95px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background:black;
+    color: white;
+    font-family: sans-serif;
+       }
+       footer {
+    background: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+ 
+
+</style>
+</head>
+<body>
+<nav>
+ <div class="logo">My Portfolio</div>
+ <ul class="nav-links">
+  <li><a href="home.html"> Home</a></li>
+  <li> <a href="about me.html"> About</a></li>
+
+  <li> <a href="skills.html">Skills</a></li>
+  <li> <a href="contact.html">Contact</a></li>
+ </ul>
+</nav>
+<h1> My skills:</h1>
+<div id="tab">
+
+<ul>
+ <li> Html, Css, C++</li>
+ <li>Problem solving</li>
+ <li> Teamwork and collobration</li>
+ <li> Time management</li>
+</div>
+<footer>
+        <p>© 2024 [Gaurav LAmichhane]. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
